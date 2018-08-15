@@ -1,19 +1,32 @@
 ﻿@{
     ViewBag.Title = "SearchProducts";
 }
-</br>
-</br>
-<div style="column-span">
-    <h2>SearchProducts</h2>
+<br />
+<br />
 
-    </br></br>
+<h2>Products matching your input: </h2>
 
-    <ul>
-        @*Create a list of the products with Razor*@
-        @foreach (var p in ViewBag.SearchResults)
-        {
-            <li>@p</li>
+<br />
+<br />
 
-        }
-    </ul>
-</div>
+
+@*Create a table of the products with Razor*@
+@foreach (var p in ViewBag.SearchResults)
+{
+    <table border="1" class="table">
+
+        <tr>
+            <td>@p</td>
+        </tr>
+
+    </table>
+}
+
+@*Create a list of the products with Razor
+    @foreach (var p in ViewBag.SearchResults)
+    {
+        <ul>
+            <td>@p</td>
+        </ul>
+    }*@
+
