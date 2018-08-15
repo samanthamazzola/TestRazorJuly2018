@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{6C2D1E72-0C5F-49CB-B576-5D6F6EF48871}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestRazorJuly2018/Views/Home/Index.cshtml">
+    <Files>
+      <File FileName="TestRazorJuly2018/Views/Home/Index.cshtml" Line="10" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TestRazorJuly2018 PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+</Properties>
