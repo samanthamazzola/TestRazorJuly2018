@@ -17,14 +17,28 @@ namespace TestRazorJuly2018.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public IActionResult SearchProducts(string productName) //datatype and var productName
+        //later will use productName to search for and connect db
+        {
+            //db for products
+            //create and array of strings
+            string[] products = { "Coke", "Water", "Coffee", "Ruffles Chips" };
+
+            string[] results= products.Where(x => x.ToLower().Contains(productName.ToLower())).ToArray();
+
+            ViewBag.SearchResults = results;
 
             return View();
         }

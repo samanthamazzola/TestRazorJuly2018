@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "SearchProducts";
+}
+</br>
+</br>
+<div style="column-span">
+    <h2>SearchProducts</h2>
+
+    </br></br>
+
+    <ul>
+        @*Create a list of the products with Razor*@
+        @foreach (var p in ViewBag.SearchResults)
+        {
+            <li>@p</li>
+
+        }
+    </ul>
+</div>
